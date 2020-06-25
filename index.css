@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(151, 151, 151);
+}
+main {
+    display: grid;
+    grid-template: 230px 1fr 1fr / 1fr;
+    justify-items: start;
+    padding-left: 20px;
+    /* align-items: center; */
+}
+h1 {
+    margin:0px;
+    padding:0px;
+    /* margin-bottom: 10px;
+    margin-left: 60px; */
+}
+main a {
+    text-decoration: none;
+    width: 100%;
+}
+span {
+    color: rgb(31, 30, 30);
+}
+.tapas{
+    display: grid;
+    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px/ 300px;
+    /* justify-items: start;
+    align-items: center; */
+}
+.tapas a, .bocadillos a, .bebidas a {
+    display: grid;
+    grid-template: 1fr / 150px 40px 50px;
+}
+.precio {
+    justify-self: end;
+}
+.bocadillos{
+    display: grid;
+    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px  / 300px;
+    /* justify-items: start;
+    align-items: center; */
+}
+.bebidas{
+    display: grid;
+    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px / 300px;
+    /* justify-items: start;
+    align-items: center; */
+}

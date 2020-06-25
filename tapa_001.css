@@ -1,11 +1,16 @@
 body {
-    background-color: #888885;
-    margin: 0px;
     display: grid;
+    grid-template: 1fr/ 1fr;
+    justify-items: center;
     align-items: center;
-    align-self: center;
-    }
+}
+img {
+    width: 100%;
+}
+@media all and (min-width: 500px){
     img {
-        width: 100%;
-        height: 100vh; 
+        width: 80%;
+        position: fixed;
+        top:-290px;
     }
+}
