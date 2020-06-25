@@ -3,11 +3,40 @@ html {
 }
 main {
     display: grid;
-    grid-template: 230px 1fr 1fr / 1fr;
+    grid-template: 30px 240px 340px 1fr / 270px;
     justify-items: start;
     padding-left: 20px;
     /* align-items: center; */
 }
+/* <header>------------------------------------------------------------ */
+header {
+    display: grid;
+    grid-template: 1fr / 90px 190px;
+}
+header p {
+    margin: 0px;
+    margin-top: 10px;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav {
+    justify-self: end;
+}
+header nav ul, header img, header nav ul li, header nav ul li img {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+header nav ul li img {
+    width: 30px;
+}
+header nav ul li {
+    /* display: none; */
+}
+/* </header>----------------------------------------------------------- */
+
+
 h1 {
     margin:0px;
     padding:0px;
@@ -23,7 +52,7 @@ span {
 }
 .tapas{
     display: grid;
-    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px/ 300px;
+    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px / 270px;
     /* justify-items: start;
     align-items: center; */
 }
@@ -36,13 +65,19 @@ span {
 }
 .bocadillos{
     display: grid;
-    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px  / 300px;
+    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px  / 270px;
     /* justify-items: start;
     align-items: center; */
 }
 .bebidas{
     display: grid;
-    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px / 300px;
+    grid-template: 30px 20px 20px 20px 20px 20px 20px 20px 20px 20px / 270px;
     /* justify-items: start;
     align-items: center; */
+}
+
+@media all and (min-width: 400px){
+    main {
+        padding-left: 80px;
+    }
 }

@@ -8,6 +8,18 @@
 </head>
 <body>
     <main>
+        <header>
+            <p>BAR PEPE</p>
+            <nav>  
+                    <ul>
+                        <li><img onclick="homeSpanish()" src="./images/spain.svg" alt="Spanish language"></li>
+                        <li><img onclick="homeEnglish()" src="./images/uk.svg" alt="English language"></li>
+                        <li><img onclick="homeEnglish()" src="./images/germany.svg" alt="German language"></li>
+                        <li><img onclick="homeChinese()" src="./images/china.svg" alt="Chinese language"></li>
+                        <li><img onclick="homeJapan()" src="./images/japan.svg" alt="Japanese language"></li>
+                    </ul>
+                </nav>    
+        </header>
         <section class="tapas">
             <h1>Tapas</h1>
             <a href="tapa_001.html"><span>Bravas</span>                 <span>.......</span><span class="precio" >3,50€</span></a>
@@ -54,6 +66,17 @@
             <a href="tapa_001.html"><span>Cortado</span><span>.......</span><span class="precio" >3,50€</span></a>
         </section>
     </main>
+    <script>
+        function homeSpanish(){
+          window.location = "index.html";
+        }
+        function homeEnglish(){
+          window.location = "indexEnglish.html";
+        }
+        function homeChinese(){
+          window.location = "indexChinese.html";
+        }
+      </script>
 </body>
 </html>
 
